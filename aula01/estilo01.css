@@ -1,0 +1,15 @@
+img{
+    border: 10px solid black;
+}
+h4{
+    font-size: 50px;
+    color: cadetblue;
+    background-color: black;
+    border: 10px;
+    border-color: red;
+}
+ol li{
+    font-size: 20px;
+    color: red;
+
+}

@@ -1,0 +1,15 @@
+/*CSS externo*/
+p {
+    color: green;
+    font-size: 35px;
+
+}
+ul li{
+    color: aqua;
+    font-family: arial;
+    
+}
+ol li{
+    color: blue;
+    font-family: calibri;
+}

@@ -1,0 +1,31 @@
+/* COMENTÁRIO dentro do CSS*/
+
+/* Aplicação do CSS na TAG HTML*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+/* Aplicao do CSS utilizanod ID*/
+#texto01{
+    color: black;
+
+}
+
+/*Aplicação do CSS utilizando CLASSE*/
+.texto02{
+    color: green;
+}
+
+/* agrupando elementos separados por vígula*/
+#texto01,
+.texto02,
+a:link{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* sub elementos - elemto dentro de outro elemento */
+ul li{
+    color: red;
+    font-size: 30px;
+}

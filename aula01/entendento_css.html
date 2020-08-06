@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Entendendo CSS</title>
+        <link rel="stylesheet" href="estilo01.css" />
+        <style>
+            h3{
+                color: darkmagenta;
+                font-size: 40px;
+            }
+            a{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            a:link{
+                color: darkviolet;
+            }
+            a:hover{
+                color: forestgreen;
+                font-size: 50px;
+            }
+            a:visited{
+                color: deeppink;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="https://pbs.twimg.com/media/Cru-vAlWYAA4XG4?format=jpg&name=small">
+
+        <h1>CSS - Cascading Style Sheet</h1>
+        <h2>Folha de estilo em camadas</h2>
+        <p>altera as características padrão das TAGs HTML</p>
+
+        <p>Existem 3 maneira de utilizar o CSS</p>
+        <ul>
+            <li>in line</li>
+            <li>interno</li>
+            <li>externo</li>
+        </ul>
+
+        <!--CSS in line -->
+        <hr style="height: 10px; background-color: crimson; border: 0px;" />
+        <h1>h1 - Padrão HTML</h1>
+        <h1 style="color:blue">h1 - com alteração CSS in line</h1>
+        <img src="https://pbs.twimg.com/media/Cru-vAlWYAA4XG4?format=jpg&name=small" style="width: 200px;">
+        <p style="font-size: 20px; color: blue;">texto alterado com CSS</p>
+        <br /><br />
+
+        <!--CSS Interno -->
+        <hr style="height: 10px; background-color:darkblue; border: 0px;" />
+        <h3>H3 - Padrão HTML foi modificado pelo CSS interno</h3>
+        <p>o CSS não é mais inserido dentro da TAG html mas, as configurações de estilo ficam dentro do arquivo HTML, <strong>normalmente no cabeçalho</strong></p>
+        <p>Dessa maneira todos os H3 da página sofreão esta alteração</p>
+        <a href="https://www.glaucosantos.com.br" target="_blank">glaucosantos - Link</a>
+        <br /><br />
+
+        <!--CSS Interno -->
+        <hr style="height: 10px; background-color:greenyellow; border: 0px;" />
+        <h4>H4 - Padrão HTML foi modificado pelo CSS externo</h4>
+        <p>os estilos CSS ficam em um arquivo separado do meu arquivo html</p>
+        <ol>
+            <li>texto1</li>
+            <li>texto2</li>
+            <li>texto3</li>
+            <li>texto4</li>
+            <li style="font-weight: bold; font-size: 50px;">texto5</li>
+        </ol>
+
+
+    </body>
+</html>
